@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/images/bg-khaadi.jpg');
+    background-size: cover;
+}
+
+.khaadi-logo img {
+    max-width: 220px;
+    height: auto;
+    margin-left: 90px;
+}
+
+.main-container{
+    float: right;
+    margin-top: 306px;
+    margin-right: 136px;
+    align-items: center;
+    text-align: center;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    border: 1px solid #ccc;
+    height: 32px;
+    background: #fff url(/images/select-bg.svg) no-repeat 100% 48%;
+    background-size: 30px 60px;
+    padding-right: 25px;
+    text-indent: 0.01em;
+    outline: none;
+    border-radius: 11px;
+}
+
+.country{
+    /* background-color: rgba(255, 255, 255, 0.654); */
+    background-color: #e7e2ebe2; 
+    width: 335px;
+    height: 46px;
+    padding: 14px;
+    margin-top: 30px;
+    margin-right: -90px;
+} 
+
+.btn{
+    background-color: rgb(0, 0, 0);
+    margin-top: 23px;
+    margin-left: 95px;
+    outline: none;
+    border: 0px solid rgba(0, 0, 0, 0.963);
+    color: white;
+    width: 183px;
+    height: 40px;
+    border-radius: 10px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
